@@ -1,0 +1,30 @@
+# --- Secrets: never commit files with real secrets ---
+# .env is allowed (template / variable names only)
+.env.local
+.env.*.local
+**/.env.local
+**/.env.*.local
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Editors / IDEs ---
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- Optional: uncomment if you use and don't want committed ---
+# .vscode/
+# node_modules/
+# __pycache__/
+# *.pyc
+# venv/
+# .venv/
